@@ -1,16 +1,17 @@
 Metadata-Version: 2.1
-Name: simple_imgpro
-Version: 0.0.1
-Summary: Meu primeiro pacote em Python
+Name: simple-imgpro
+Version: 0.0a0
+Summary: Um simples Pacote de Processamento de Imagens
 Author: Otavio Pereira Cardoso
 Author-email: otavio.pc@proton.me
 Keywords: python,image processing,simple
 Classifier: Development Status :: 3 - Alpha
 Classifier: Intended Audience :: Education
 Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.11
 Classifier: Operating System :: MacOS :: MacOS X
 Classifier: Operating System :: Microsoft :: Windows
-Requires-Dist: numpy>=2.0.0
-Requires-Dist: Python>=3.6
+Requires-Python: >=3.6
 
-Meu primeiro pacote em Python com uma descrição um pouco mais longa
+Um pacote que contém funções básicas para processamento de imagens
