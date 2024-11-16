@@ -6,14 +6,14 @@ LONG_DESCRIPTION = 'Meu primeiro pacote em Python com uma descrição um pouco m
 
 # Setting up
 setup(
-        name="stupid_simple_imgpro", 
+        name="simple_imgpro", 
         version=VERSION,
         author="Otavio Pereira Cardoso",
         author_email="otavio.pc@proton.me",
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
         packages=find_packages(),
-        install_requires=[],
+        install_requires=['numpy>=2.0.0','Python>=3.6'],
         
         keywords=['python', 'image processing', 'simple'],
         classifiers= [
